@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+ <html>
+    <link href='https://fonts.googleapis.com/css?family=Racing Sans One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Timmana' rel='stylesheet'>
+
+    <head>
+        <link rel="stylesheet" href="style.css">
+     </head>
+    <style>
+    .header{ 
+        height: 750px !important}
+     h3{
+        color:white; 
+        font-size:14pt; 
+        font-family:'Timmana';
+        text-decoration: none; 
+        position: absolute; 
+        top:13.5em; left:22.45em}
+    button.ivy{
+        background-color: transparent;
+        border:none;
+        font-size:14pt; 
+        font-family:'Racing Sans One';
+        color:rgb(216, 130, 76);
+        position: absolute;
+        top: 30em; left: 12em}
+    button.ivy:hover{opacity: .7;}
+    button.thinkin{
+        background-color: transparent;
+        border:none;
+        font-size:14pt; 
+        font-family:'Racing Sans One';
+        color:rgb(159, 184, 210);
+        position: absolute;
+        top: 31em; left: 35em}
+    button.thinkin:hover{opacity: .7;}
+        
+    </style>
+
+    <header>
+        <h1>Music as Therapy</h1>
+        <h2>Through the Discography of <mark class= "frank">Frank Ocean </mark> </h2> 
+        <div class="header"></div>
+        <a class="return" href="2menu.html"> return to main</a><br>
+        <hr class="hl">
+    </header> 
+    
+    <body>
+        <h3>good for you. that's really all you need. <br>there's not much work here to be done. <br>just let life come as it is.
+            <br>now tell me, you hopeless romantic, <br>which do you feel you resonate with the most?</h3>
+        <div class=blondelovedirect>
+            <button id="ivy" class="ivy">"i thought that i was dreaming<br> when you said you loved me"</button>
+                <script type="text/javascript">
+                document.getElementById("ivy").onclick=function(){
+                location.href ="3aplaylist.html"
+                };
+                </script>
+            <button id="thinkin" class="thinkin">"do you think about me still"</button>
+                <script type="text/javascript">
+                document.getElementById("thinkin").onclick=function(){
+                location.href ="3aplaylist2.html";
+                };
+                </script>
+        </div>
+    </body>
+</html>
