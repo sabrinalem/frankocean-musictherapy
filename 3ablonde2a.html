@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+ <html>
+    <link href='https://fonts.googleapis.com/css?family=Racing Sans One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Timmana' rel='stylesheet'>
+
+    <head>
+        <link rel="stylesheet" href="style.css">
+     </head>
+    <style>
+        .header{ 
+            height: 750px !important}
+        h3{
+            color:white; 
+            font-size:20pt; 
+            font-family:'Timmana';
+            text-decoration: none; 
+            position: absolute; 
+            top:12em; left:13.5em}
+        button.love{
+            background-color: transparent;
+            border:none;
+            font-size:24pt; 
+            font-family:'Racing Sans One';
+            color:rgb(216, 130, 76);
+            position: absolute;
+            top: 15em; left: 10em}
+        button.love:hover{opacity: .7;}
+        button.happiness{
+            background-color: transparent;
+            border:none;
+            font-size:24pt; 
+            font-family:'Racing Sans One';
+            color:rgb(159, 184, 210);
+            position: absolute;
+            top: 15em; left: 19em}
+        button.happiness:hover{opacity: .7;}
+    </style>
+
+    <header>
+        <h1>Music as Therapy</h1>
+        <h2>Through the Discography of <mark class= "frank">Frank Ocean </mark> </h2> 
+        <div class="header"></div>
+        <a class="return" href="2menu.html"> return to main</a><br>
+        <hr class="hl">
+    </header>
+    
+    <body>
+        <h3>what would you say then, you desire most?</h3>
+        <div>
+            <div class="choiceof2">
+                <button id="love" class="love">Love&Power</button>
+                    <script type="text/javascript">
+                    document.getElementById("love").onclick=function(){
+                    location.href ="3ablonde4.html";
+                    };
+                    </script>
+                <button id="happiness" class="happiness">Happiness&Money</button>
+                <script type="text/javascript">
+                document.getElementById("happiness").onclick=function(){
+                location.href ="3ablonde3.html";
+                };
+                </script>
+            </div>
+        </div>
+    </body>
+</html>
